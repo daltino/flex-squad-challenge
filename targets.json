@@ -1,0 +1,446 @@
+{
+  "target_1": {
+    "smiles": "CC(C)Cc1ccc(cc1)C(C)C(O)=O",
+    "interaction_sites": [
+      {
+        "family": "Acceptor",
+        "x": 2.45,
+        "y": -1.32,
+        "z": 0.87,
+        "weight": 1.2
+      },
+      {
+        "family": "Acceptor",
+        "x": 3.12,
+        "y": -0.98,
+        "z": 1.45,
+        "weight": 1.0
+      },
+      {
+        "family": "Hydrophobe",
+        "x": -1.23,
+        "y": 0.56,
+        "z": -0.34,
+        "weight": 0.8
+      },
+      {
+        "family": "Aromatic",
+        "x": -2.34,
+        "y": 1.12,
+        "z": -0.67,
+        "weight": 1.5
+      },
+      {
+        "family": "Hydrophobe",
+        "x": 0.45,
+        "y": 2.34,
+        "z": 1.23,
+        "weight": 0.9
+      }
+    ],
+    "excluded_volumes": [
+      {
+        "x": 1.5,
+        "y": 3.2,
+        "z": -1.8,
+        "radius": 1.2
+      },
+      {
+        "x": -3.1,
+        "y": -0.5,
+        "z": 2.1,
+        "radius": 1.2
+      },
+      {
+        "x": 2.8,
+        "y": -2.4,
+        "z": 0.3,
+        "radius": 1.2
+      }
+    ]
+  },
+  "target_2": {
+    "smiles": "CN1C=NC2=C1C(=O)N(C(=O)N2C)C",
+    "interaction_sites": [
+      {
+        "family": "Acceptor",
+        "x": 1.23,
+        "y": 0.45,
+        "z": -0.67,
+        "weight": 1.3
+      },
+      {
+        "family": "Acceptor",
+        "x": 0.89,
+        "y": -1.23,
+        "z": 0.45,
+        "weight": 1.1
+      },
+      {
+        "family": "Donor",
+        "x": -0.56,
+        "y": 1.78,
+        "z": 0.23,
+        "weight": 1.4
+      },
+      {
+        "family": "Aromatic",
+        "x": -1.45,
+        "y": 0.34,
+        "z": -0.89,
+        "weight": 1.6
+      },
+      {
+        "family": "Hydrophobe",
+        "x": 2.34,
+        "y": 1.12,
+        "z": 0.78,
+        "weight": 0.7
+      },
+      {
+        "family": "Acceptor",
+        "x": -0.23,
+        "y": -2.45,
+        "z": 1.12,
+        "weight": 1.0
+      }
+    ],
+    "excluded_volumes": [
+      {
+        "x": 3.2,
+        "y": 0.8,
+        "z": -1.5,
+        "radius": 1.2
+      },
+      {
+        "x": -2.1,
+        "y": 2.5,
+        "z": 1.3,
+        "radius": 1.2
+      },
+      {
+        "x": 0.5,
+        "y": -3.1,
+        "z": -0.8,
+        "radius": 1.2
+      },
+      {
+        "x": 1.8,
+        "y": -1.2,
+        "z": 2.4,
+        "radius": 1.2
+      }
+    ]
+  },
+  "target_3": {
+    "smiles": "CC(=O)Oc1ccccc1C(O)=O",
+    "interaction_sites": [
+      {
+        "family": "Acceptor",
+        "x": 2.67,
+        "y": -0.89,
+        "z": 1.23,
+        "weight": 1.25
+      },
+      {
+        "family": "Acceptor",
+        "x": 3.45,
+        "y": -1.56,
+        "z": 0.78,
+        "weight": 1.15
+      },
+      {
+        "family": "Donor",
+        "x": 2.12,
+        "y": -0.34,
+        "z": 2.01,
+        "weight": 1.35
+      },
+      {
+        "family": "Aromatic",
+        "x": -0.78,
+        "y": 0.45,
+        "z": -0.23,
+        "weight": 1.7
+      },
+      {
+        "family": "Acceptor",
+        "x": -1.89,
+        "y": 1.23,
+        "z": -1.45,
+        "weight": 0.95
+      },
+      {
+        "family": "Hydrophobe",
+        "x": 1.34,
+        "y": 2.45,
+        "z": 0.67,
+        "weight": 0.85
+      },
+      {
+        "family": "Acceptor",
+        "x": -2.34,
+        "y": -1.12,
+        "z": 0.89,
+        "weight": 1.05
+      }
+    ],
+    "excluded_volumes": [
+      {
+        "x": 4.1,
+        "y": -0.3,
+        "z": -1.2,
+        "radius": 1.2
+      },
+      {
+        "x": -1.5,
+        "y": 3.2,
+        "z": 0.8,
+        "radius": 1.2
+      },
+      {
+        "x": 0.8,
+        "y": -2.8,
+        "z": -1.9,
+        "radius": 1.2
+      },
+      {
+        "x": -3.4,
+        "y": 0.5,
+        "z": 1.6,
+        "radius": 1.2
+      },
+      {
+        "x": 2.3,
+        "y": 1.8,
+        "z": -2.1,
+        "radius": 1.2
+      }
+    ]
+  },
+  "target_4": {
+    "smiles": "Cc1ccc(cc1Nc2nccc(n2)c3cccnc3)NC(=O)c4ccc(cc4)CN5CCN(CC5)C",
+    "interaction_sites": [
+      {
+        "family": "Donor",
+        "x": 1.45,
+        "y": 2.34,
+        "z": -0.78,
+        "weight": 1.45
+      },
+      {
+        "family": "Donor",
+        "x": 0.67,
+        "y": 3.12,
+        "z": -1.23,
+        "weight": 1.3
+      },
+      {
+        "family": "Acceptor",
+        "x": -1.23,
+        "y": 1.89,
+        "z": 0.45,
+        "weight": 1.2
+      },
+      {
+        "family": "Aromatic",
+        "x": -2.45,
+        "y": 0.56,
+        "z": -0.89,
+        "weight": 1.8
+      },
+      {
+        "family": "Aromatic",
+        "x": 2.34,
+        "y": -1.12,
+        "z": 0.67,
+        "weight": 1.65
+      },
+      {
+        "family": "Aromatic",
+        "x": 3.56,
+        "y": -0.45,
+        "z": 1.23,
+        "weight": 1.55
+      },
+      {
+        "family": "Acceptor",
+        "x": -0.89,
+        "y": -2.34,
+        "z": 1.78,
+        "weight": 1.1
+      },
+      {
+        "family": "Hydrophobe",
+        "x": 1.12,
+        "y": -3.45,
+        "z": -0.56,
+        "weight": 0.75
+      },
+      {
+        "family": "Acceptor",
+        "x": -3.12,
+        "y": -1.23,
+        "z": -1.45,
+        "weight": 1.0
+      },
+      {
+        "family": "Hydrophobe",
+        "x": 4.23,
+        "y": 1.56,
+        "z": 0.34,
+        "weight": 0.8
+      }
+    ],
+    "excluded_volumes": [
+      {
+        "x": 2.8,
+        "y": 3.9,
+        "z": -2.1,
+        "radius": 1.2
+      },
+      {
+        "x": -4.2,
+        "y": 1.3,
+        "z": 0.7,
+        "radius": 1.2
+      },
+      {
+        "x": 1.5,
+        "y": -4.1,
+        "z": 1.8,
+        "radius": 1.2
+      },
+      {
+        "x": -2.3,
+        "y": -3.2,
+        "z": -0.9,
+        "radius": 1.2
+      },
+      {
+        "x": 5.1,
+        "y": -0.8,
+        "z": -1.4,
+        "radius": 1.2
+      },
+      {
+        "x": -1.2,
+        "y": 4.3,
+        "z": 1.5,
+        "radius": 1.2
+      },
+      {
+        "x": 3.7,
+        "y": -2.1,
+        "z": 2.3,
+        "radius": 1.2
+      }
+    ]
+  },
+  "target_5": {
+    "smiles": "COc1cc2ncnc(Nc3ccc(F)c(Cl)c3)c2cc1OCCCN4CCOCC4",
+    "interaction_sites": [
+      {
+        "family": "Donor",
+        "x": 0.89,
+        "y": 1.67,
+        "z": -1.23,
+        "weight": 1.4
+      },
+      {
+        "family": "Acceptor",
+        "x": -1.45,
+        "y": 2.34,
+        "z": 0.78,
+        "weight": 1.25
+      },
+      {
+        "family": "Acceptor",
+        "x": -2.12,
+        "y": 1.89,
+        "z": 1.45,
+        "weight": 1.15
+      },
+      {
+        "family": "Aromatic",
+        "x": 2.34,
+        "y": 0.45,
+        "z": -0.67,
+        "weight": 1.75
+      },
+      {
+        "family": "Aromatic",
+        "x": -3.23,
+        "y": -0.56,
+        "z": 0.34,
+        "weight": 1.6
+      },
+      {
+        "family": "Acceptor",
+        "x": 1.23,
+        "y": -1.78,
+        "z": 1.12,
+        "weight": 1.05
+      },
+      {
+        "family": "Acceptor",
+        "x": 0.56,
+        "y": -2.45,
+        "z": 1.89,
+        "weight": 0.95
+      },
+      {
+        "family": "Hydrophobe",
+        "x": 3.45,
+        "y": -1.12,
+        "z": -1.34,
+        "weight": 0.85
+      },
+      {
+        "family": "Hydrophobe",
+        "x": -1.89,
+        "y": -3.12,
+        "z": -0.45,
+        "weight": 0.75
+      }
+    ],
+    "excluded_volumes": [
+      {
+        "x": 4.3,
+        "y": 1.2,
+        "z": -2.1,
+        "radius": 1.2
+      },
+      {
+        "x": -3.8,
+        "y": 3.1,
+        "z": 1.7,
+        "radius": 1.2
+      },
+      {
+        "x": 2.1,
+        "y": -3.5,
+        "z": 2.4,
+        "radius": 1.2
+      },
+      {
+        "x": -2.7,
+        "y": -2.3,
+        "z": -1.8,
+        "radius": 1.2
+      },
+      {
+        "x": 1.4,
+        "y": 3.8,
+        "z": 0.9,
+        "radius": 1.2
+      },
+      {
+        "x": -4.5,
+        "y": -0.7,
+        "z": -1.2,
+        "radius": 1.2
+      }
+    ]
+  }
+}
